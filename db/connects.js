@@ -1,5 +1,5 @@
 const mongoose = require('mongoose')
-mongoose.connect("mongodb://127.0.0.1:27017/SIGNUP_DATA").then(()=>{
+mongoose.connect("mongodb+srv://rrbb95361:qJ6iOx5O9LjASALN@imgsaver.zzryt95.mongodb.net/travel").then(()=>{
     console.log("MongoDB is connected Successfully......")
 }).catch(()=>{
     console.log("Error connecting to database")
